@@ -22,7 +22,8 @@ public class BubbleSort {
         }
 //        bubbleSort(arr);
 //        InsertionSort.insertSort(arr);
-        SelectionSort.selectSort(arr);
+//        SelectionSort.selectSort(arr);
+        QuickSort.quickSort(arr,0,arr.length-1);
         System.out.println(Arrays.toString(arr));
     }
 }
